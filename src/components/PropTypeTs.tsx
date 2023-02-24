@@ -44,7 +44,6 @@ type AppProps = {
   message: string;
 };
 
-
 Method 1
 const FunctionName = ({ message }: AppProps) => <div>{message}</div>;
 
