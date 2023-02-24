@@ -14,8 +14,9 @@ const HooksExample = () => {
   }, []);
 
 
-  /*
+  
   //TS with useCallback
+  /*
   const memorizedCallback = useCallback(
     (parms1: string, parms2: string): boolean => {
       console.log(parms1, parms2);

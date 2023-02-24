@@ -45,9 +45,12 @@ type AppProps = {
 };
 
 
+Method 1
 const FunctionName = ({ message }: AppProps) => <div>{message}</div>;
 
+Method 2
 const FunctionName = ({ message }: AppProps): JSX.Element => <div>{message}</div>;
 
+Method 3
 const FunctionName = ({ message }: { message: string }) => <div>{message}</div>;
 */
