@@ -13,6 +13,8 @@ const HooksExample = () => {
     setValue(123);
   }, []);
 
+
+  /*
   //TS with useCallback
   const memorizedCallback = useCallback(
     (parms1: string, parms2: string): boolean => {
@@ -21,16 +23,22 @@ const HooksExample = () => {
     },
     []
   );
+  */
 
   //Any type in useCallback
   useCallback((e) => {}, []);
   useCallback((e: any) => {}, []);
 
+  /*
   //ACTION in Reducer
   type ACTIONTYPE =
     | { type: "increment"; payload: number }
     | { type: "decrement"; payload: string };
+    */
 
+
+
+/*
   // Define the initial state using that type
   interface CounterState {
     value: number;
@@ -42,7 +50,7 @@ const HooksExample = () => {
 
   // Use Reft with TS
   // const divRef = useRef<HTMLDivElement>(null);
-
+*/
 
   return (
     <div>
