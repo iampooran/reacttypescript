@@ -4,8 +4,10 @@ type AppProps = {
     message: string;
     count?: number;
     disabled?: boolean;
+    //Array
     names?: string[];
     status?: "waiting" | "success";
+    //Object
     obj?:{
         id: string,
         title: string
